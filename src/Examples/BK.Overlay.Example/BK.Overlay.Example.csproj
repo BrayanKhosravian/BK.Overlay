@@ -10,8 +10,4 @@
     <ProjectReference Include="..\..\BK.Overlay.UserControls\BK.Overlay.UserControls.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Overlays\" />
-  </ItemGroup>
-
 </Project>

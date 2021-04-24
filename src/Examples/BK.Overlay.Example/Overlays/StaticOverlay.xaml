@@ -1,0 +1,13 @@
+﻿<usercontrols:CustomWindow x:Class="BK.Overlay.Example.Overlays.StaticOverlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BK.Overlay.Example.Overlays"
+        mc:Ignorable="d"
+        xmlns:usercontrols="clr-namespace:BK.Overlay.UserControls;assembly=BK.Overlay.UserControls" 
+        Title="StaticOverlay" Height="450" Width="800">
+    <Grid>
+        
+    </Grid>
+</usercontrols:CustomWindow>
