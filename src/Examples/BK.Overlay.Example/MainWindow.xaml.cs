@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BK.Overlay.UserControls;
 
 namespace BK.Overlay.Example
 {
@@ -23,6 +24,9 @@ namespace BK.Overlay.Example
 		public MainWindow()
 		{
 			InitializeComponent();
+
 		}
+
+		
 	}
 }
