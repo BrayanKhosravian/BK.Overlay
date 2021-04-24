@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         xmlns:usercontrols="clr-namespace:BK.Overlay.UserControls;assembly=BK.Overlay.UserControls" 
         Title="StaticOverlay" Height="450" Width="800">
-    <Grid>
-        <TextBlock Text="Hello world" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Red"/>
-    </Grid>
+
+
+    <usercontrols:Overlay.CanvasItems>
+        <Button HorizontalAlignment="Center" VerticalAlignment="Center">Hello World</Button> 
+    </usercontrols:Overlay.CanvasItems>
 </usercontrols:Overlay>
