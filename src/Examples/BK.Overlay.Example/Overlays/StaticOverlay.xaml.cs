@@ -13,7 +13,7 @@ using System.Windows.Shapes;
 
 namespace BK.Overlay.Example.Overlays
 {
-	public partial class StaticOverlay : CustomWindow
+	public partial class StaticOverlay : UserControls.Overlay
 	{
 		public StaticOverlay()
 		{

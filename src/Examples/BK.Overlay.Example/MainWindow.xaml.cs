@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BK.Overlay.Example.Overlays;
 using BK.Overlay.UserControls;
 
 namespace BK.Overlay.Example
@@ -25,8 +26,36 @@ namespace BK.Overlay.Example
 		{
 			InitializeComponent();
 
+			var overlayFactories = CreateOverlayFactories();
+			var buttons = CreateButtons(overlayFactories);
+
+			foreach (var button in buttons)
+			{
+				MainWindowStackPanel.Children.Add(button);
+			}
 		}
 
-		
+		private IEnumerable<Func<UserControls.Overlay>> CreateOverlayFactories()
+		{
+			yield return () => new StaticOverlay();
+		}
+
+		private IEnumerable<Button> CreateButtons(IEnumerable<Func<UserControls.Overlay>> overlayFactories)
+		{
+			foreach (var overlayFactory in overlayFactories)
+			{
+				yield return CreateButton(overlayFactory);
+			}
+		}
+
+		private Button CreateButton(Func<UserControls.Overlay> overlayFactory)
+		{
+			var b = new Button();
+			var overlay = overlayFactory.Invoke();
+
+			b.Content = overlay.GetType().ToString();
+			b.Click += (sender, e) => overlayFactory.Invoke().Show();
+			return b;
+		}
 	}
 }
