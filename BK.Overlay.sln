@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{F0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{FBCCE5E6-7C9E-488B-B779-C7385820BA36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.Example", "src\Examples\BK.Overlay.Example\BK.Overlay.Example.csproj", "{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,9 +38,16 @@ Global
 		{A6505C8A-9EB3-4E46-B3D9-62C7D2F7089C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6505C8A-9EB3-4E46-B3D9-62C7D2F7089C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6505C8A-9EB3-4E46-B3D9-62C7D2F7089C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9} = {F001DD64-CCB1-43CA-91C7-9A42ACC2BD84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1AF2D1B-20A4-4097-94CD-9B797BDB15D4}
