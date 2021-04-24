@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using BK.Overlay.Example.Overlays;
+using BK.Overlay.Example.ViewModels;
 using BK.Overlay.UserControls;
 
 namespace BK.Overlay.Example
@@ -38,6 +39,12 @@ namespace BK.Overlay.Example
 		private IEnumerable<Func<UserControls.Overlay>> CreateOverlayFactories()
 		{
 			yield return () => new StaticOverlay();
+			yield return () => 
+			{
+				var observableOverlay = new ObservableOverlay();
+				var vm = new ObservableOverlayViewModel();
+				observableOverlay.DataContext = 
+			};
 		}
 
 		private IEnumerable<Button> CreateButtons(IEnumerable<Func<UserControls.Overlay>> overlayFactories)

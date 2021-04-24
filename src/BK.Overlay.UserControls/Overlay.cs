@@ -19,7 +19,7 @@ namespace BK.Overlay.UserControls
 			Resources = resources;
 
 			var root = CreateRoot();
-			Content = root; 
+			Content = root;  
         }
 
 		#region ContentProperty
@@ -79,7 +79,7 @@ namespace BK.Overlay.UserControls
 		}
     }
 
-	abstract class OverlayViewModelBase
+	public abstract class OverlayViewModelBase
 	{
 		public ObservableCollection<Shape> CanvasItems { get; protected set; } = new ObservableCollection<Shape>();
 	}
