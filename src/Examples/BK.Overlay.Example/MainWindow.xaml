@@ -7,7 +7,29 @@
         xmlns:usercontrols="clr-namespace:BK.Overlay.UserControls;assembly=BK.Overlay.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel x:Name="MainWindowStackPanel">
-        <Button Content="Test" Click="Button_Click"/>
-    </StackPanel>
+    <Grid>
+       
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="6*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <Button Grid.ColumnSpan="3" Content="Show Overlay" Click="Button_Click"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label Content="X: "/>
+            <TextBox x:Name="xValue"  Text="50"/>
+            <Label Content="Y: "/>
+            <TextBox x:Name="yValue" Text="50"/>
+            <Button Content="Addd shape" Click="OnAddShape"/>
+        </StackPanel>
+            
+
+    </Grid>
 </Window>
