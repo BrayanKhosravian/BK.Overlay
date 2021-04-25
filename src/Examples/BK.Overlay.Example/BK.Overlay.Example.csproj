@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BK.Overlay.Core\BK.Overlay.Core.csproj" />
     <ProjectReference Include="..\..\BK.Overlay.UserControls\BK.Overlay.UserControls.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Overlays\" />
   </ItemGroup>
 
 </Project>

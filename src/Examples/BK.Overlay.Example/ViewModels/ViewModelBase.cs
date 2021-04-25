@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BK.Overlay.Example.ViewModels
 {
-	abstract class ViewModelBase : OverlayViewModelBase, INotifyPropertyChanging, INotifyPropertyChanged
+	abstract class ViewModelBase : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		public event PropertyChangingEventHandler PropertyChanging;
 		public event PropertyChangedEventHandler PropertyChanged;
