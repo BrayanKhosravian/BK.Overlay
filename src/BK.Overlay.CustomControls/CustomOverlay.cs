@@ -62,6 +62,8 @@ namespace BK.Overlay.CustomControls
 			var dpiDecorator = new DpiDecorator();
             var itemsControl = new ItemsControl();
 
+
+
             throw new NotImplementedException();
 
 		}
