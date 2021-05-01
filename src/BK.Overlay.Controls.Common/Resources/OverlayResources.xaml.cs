@@ -11,7 +11,7 @@ namespace BK.Overlay.Controls.Common.Resources
 	{
 		public OverlayResources()
 		{
-			// InitializeComponent();
+			InitializeComponent();
 		}
 	}
 }
