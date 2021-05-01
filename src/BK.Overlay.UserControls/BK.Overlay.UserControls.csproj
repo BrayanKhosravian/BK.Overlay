@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj" />
-    <ProjectReference Include="..\BK.Overlay.Core\BK.Overlay.Core.csproj" />
   </ItemGroup>
 
 </Project>
