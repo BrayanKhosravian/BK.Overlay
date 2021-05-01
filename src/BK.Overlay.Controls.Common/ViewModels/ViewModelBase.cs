@@ -1,13 +1,12 @@
-﻿using BK.Overlay.UserControls;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace BK.Overlay.Example.ViewModels
+namespace BK.Overlay.Controls.Common.ViewModels
 {
-	abstract class ViewModelBase : INotifyPropertyChanging, INotifyPropertyChanged
+	public abstract class ViewModelBase : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		public event PropertyChangingEventHandler PropertyChanging;
 		public event PropertyChangedEventHandler PropertyChanged;

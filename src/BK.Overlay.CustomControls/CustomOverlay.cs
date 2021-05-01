@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BK.Overlay.Controls.Common.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -51,14 +52,18 @@ namespace BK.Overlay.CustomControls
             DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomOverlay), new FrameworkPropertyMetadata(typeof(CustomOverlay)));
         }
 
-		//public CustomOverlay()
-		//{
+		public CustomOverlay()
+		{
             
-		//}
+		}
 
-  //      private ContentControl CreateContent()
-		//{
-  //          var dpiDecorator = new DpiDecorator();
-		//}
-    }
+		private ContentControl CreateContent()
+		{
+			var dpiDecorator = new DpiDecorator();
+            var itemsControl = new ItemsControl();
+
+            throw new NotImplementedException();
+
+		}
+	}
 }

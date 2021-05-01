@@ -11,13 +11,19 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
+using BK.Overlay.Controls.Common.ViewModels;
 using BK.Overlay.Core.Shapes;
 using BK.Overlay.CustomControls;
-using BK.Overlay.Example.ViewModels;
 using BK.Overlay.UserControls;
 
 namespace BK.Overlay.Example
 {
+
+	internal class OverlayViewModel : OverlayViewModelBase
+	{
+
+	}
+
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
