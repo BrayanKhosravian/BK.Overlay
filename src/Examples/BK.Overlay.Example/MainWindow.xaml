@@ -12,6 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition Height="6*"/>
         </Grid.RowDefinitions>
 
@@ -29,7 +30,9 @@
             <TextBox x:Name="yValue" Text="50"/>
             <Button Content="Addd shape" Click="OnAddShape"/>
         </StackPanel>
-            
+
+        <Button Grid.Row="2"  Grid.ColumnSpan="3" Content="Show custom control overlay"
+                Click="OnCustomControlOverlay"/>
 
     </Grid>
 </Window>

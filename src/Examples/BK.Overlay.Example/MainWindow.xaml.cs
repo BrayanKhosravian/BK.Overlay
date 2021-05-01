@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using BK.Overlay.Core.Shapes;
+using BK.Overlay.CustomControls;
 using BK.Overlay.Example.ViewModels;
 using BK.Overlay.UserControls;
 
@@ -44,6 +45,14 @@ namespace BK.Overlay.Example
 			var y = int.Parse(yValue.Text);
 			var line = new Line(x, y, System.Drawing.Color.Red, 50, Guid.NewGuid(), x + 50, y + 50);
 			_vm.CanvasItems.Add(line);
+		}
+
+		private void OnCustomControlOverlay(object sender, RoutedEventArgs e)
+		{
+			var o = new CustomOverlay();
+			o.Background = Brushes.Yellow;
+			o.Show();
+
 		}
 	}
 }
