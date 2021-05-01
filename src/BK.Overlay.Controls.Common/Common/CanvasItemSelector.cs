@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace BK.Overlay.UserControls.Common
+namespace BK.Overlay.Controls.Common.Common
 {
 	public class CanvasItemSelector : DataTemplateSelector
 	{

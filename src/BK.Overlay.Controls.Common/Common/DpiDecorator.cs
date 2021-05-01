@@ -6,7 +6,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace BK.Overlay.UserControls.Common
+namespace BK.Overlay.Controls.Common.Common
 {
 	[DebuggerStepThrough]
 	public class DpiDecorator : Decorator

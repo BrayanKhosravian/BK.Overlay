@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace BK.Overlay.UserControls.Converters
+namespace BK.Overlay.Controls.Common.Converters
 {
 	public class ColorToSolidColorBrushConverter : IValueConverter
 	{

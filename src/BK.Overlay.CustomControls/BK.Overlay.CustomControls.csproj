@@ -79,5 +79,11 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj">
+      <Project>{49138642-3e25-445e-8432-8c7dd133ad50}</Project>
+      <Name>BK.Overlay.Controls.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

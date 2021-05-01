@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace BK.Overlay.UserControls.Converters
+namespace BK.Overlay.Controls.Common.Converters
 {
 	public static class ColorConverterHelpers
 	{

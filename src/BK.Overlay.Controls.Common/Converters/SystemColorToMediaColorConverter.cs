@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace BK.Overlay.UserControls.Converters
+namespace BK.Overlay.Controls.Common.Converters
 {
 	class SystemColorToMediaColorConverter : IValueConverter
 	{

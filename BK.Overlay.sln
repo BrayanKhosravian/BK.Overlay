@@ -22,6 +22,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BK.Overlay.Example", "src\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.CustomControls", "src\BK.Overlay.CustomControls\BK.Overlay.CustomControls.csproj", "{09BB71A7-BE05-482E-BC1C-B66497A4F70A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.Controls.Common", "src\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj", "{49138642-3E25-445E-8432-8C7DD133AD50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{09BB71A7-BE05-482E-BC1C-B66497A4F70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09BB71A7-BE05-482E-BC1C-B66497A4F70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09BB71A7-BE05-482E-BC1C-B66497A4F70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49138642-3E25-445E-8432-8C7DD133AD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49138642-3E25-445E-8432-8C7DD133AD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49138642-3E25-445E-8432-8C7DD133AD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49138642-3E25-445E-8432-8C7DD133AD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
