@@ -15,9 +15,9 @@ namespace BK.CheatSheetOverlay.Views
 	/// <summary>
 	/// Interaction logic for CheatSheetOverlay.xaml
 	/// </summary>
-	public partial class CheatSheetOverlay : Window
+	public partial class CheatSheatOverlay : Window
 	{
-		public CheatSheetOverlay()
+		public CheatSheatOverlay()
 		{
 			InitializeComponent();
 		}
