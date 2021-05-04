@@ -24,7 +24,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.CustomControls",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.Controls.Common", "src\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj", "{49138642-3E25-445E-8432-8C7DD133AD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.CheatSheetOverlay", "src\Projects\BK.CheatSheetOverlay\BK.CheatSheetOverlay.csproj", "{2A631F27-6696-4042-86D4-E3604639FE8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.CheatSheatOverlay", "src\Projects\BK.CheatSheatOverlay\BK.CheatSheatOverlay.csproj", "{2A631F27-6696-4042-86D4-E3604639FE8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
