@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using BK.Overlay.Controls.Common.ViewModels;
 using BK.Overlay.Core.Shapes;
 using BK.Overlay.CustomControls;
+using BK.Overlay.Example.Overlays;
 using BK.Overlay.UserControls;
 
 namespace BK.Overlay.Example
@@ -55,7 +56,7 @@ namespace BK.Overlay.Example
 
 		private void OnCustomControlOverlay(object sender, RoutedEventArgs e)
 		{
-			var o = new CustomOverlay();
+			var o = new ConcreteCustomOverlay();
 			o.Background = Brushes.Yellow;
 			o.Show();
 
