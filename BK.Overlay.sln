@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.CustomControls",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Overlay.Controls.Common", "src\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj", "{49138642-3E25-445E-8432-8C7DD133AD50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.CheatSheetOverlay", "src\Projects\BK.CheatSheetOverlay\BK.CheatSheetOverlay.csproj", "{2A631F27-6696-4042-86D4-E3604639FE8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,12 +56,17 @@ Global
 		{49138642-3E25-445E-8432-8C7DD133AD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49138642-3E25-445E-8432-8C7DD133AD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49138642-3E25-445E-8432-8C7DD133AD50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A631F27-6696-4042-86D4-E3604639FE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A631F27-6696-4042-86D4-E3604639FE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A631F27-6696-4042-86D4-E3604639FE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A631F27-6696-4042-86D4-E3604639FE8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9} = {F001DD64-CCB1-43CA-91C7-9A42ACC2BD84}
+		{2A631F27-6696-4042-86D4-E3604639FE8D} = {FBCCE5E6-7C9E-488B-B779-C7385820BA36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1AF2D1B-20A4-4097-94CD-9B797BDB15D4}
