@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="PixiEditor.ColorPicker" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\BK.Overlay.Controls.Common\BK.Overlay.Controls.Common.csproj" />
     <ProjectReference Include="..\..\BK.Overlay.Core\BK.Overlay.Core.csproj" />
     <ProjectReference Include="..\..\BK.Overlay.PInvoke\BK.Overlay.PInvoke.csproj" />
