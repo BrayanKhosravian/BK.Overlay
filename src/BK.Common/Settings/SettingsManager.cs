@@ -3,7 +3,6 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.Serialization;
 using System.Text;
 
 namespace BK.Common.Settings
@@ -19,25 +18,6 @@ namespace BK.Common.Settings
 				var path = Path.Combine(basePath, fileName);
 				return path;
 			}
-		}
-	}
-
-	class SettingsKeyNotFoundException : ArgumentException
-	{
-		public SettingsKeyNotFoundException()
-		{
-		}
-
-		public SettingsKeyNotFoundException(string message) : base(message)
-		{
-		}
-
-		public SettingsKeyNotFoundException(string message, Exception innerException) : base(message, innerException)
-		{
-		}
-
-		protected SettingsKeyNotFoundException(SerializationInfo info, StreamingContext context) : base(info, context)
-		{
 		}
 	}
 

@@ -28,6 +28,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BK.CheatSheatOverlay", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Common", "src\BK.Common\BK.Common.csproj", "{06EA43FF-F428-48FD-8F7B-CAAE8B49384F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AD15E793-ED0C-420E-8C49-F9E1742FBB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BK.Common.Tests", "src\Tests\BK.Common.Tests\BK.Common.Tests.csproj", "{509E000F-4DED-476F-AFF2-216639FC0133}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +70,10 @@ Global
 		{06EA43FF-F428-48FD-8F7B-CAAE8B49384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EA43FF-F428-48FD-8F7B-CAAE8B49384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EA43FF-F428-48FD-8F7B-CAAE8B49384F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509E000F-4DED-476F-AFF2-216639FC0133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509E000F-4DED-476F-AFF2-216639FC0133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509E000F-4DED-476F-AFF2-216639FC0133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509E000F-4DED-476F-AFF2-216639FC0133}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +81,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{572B4DB0-2E72-4ED3-A7F6-F63C5446AAE9} = {F001DD64-CCB1-43CA-91C7-9A42ACC2BD84}
 		{2A631F27-6696-4042-86D4-E3604639FE8D} = {FBCCE5E6-7C9E-488B-B779-C7385820BA36}
+		{509E000F-4DED-476F-AFF2-216639FC0133} = {AD15E793-ED0C-420E-8C49-F9E1742FBB18}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1AF2D1B-20A4-4097-94CD-9B797BDB15D4}
