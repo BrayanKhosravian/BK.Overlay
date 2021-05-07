@@ -26,7 +26,7 @@ namespace BK.Common.Settings
 		// template property pattern
 		protected abstract string SettingsFilePath { get; }
 
-		public SettingsManagerBase()
+		protected SettingsManagerBase()
 		{
 			if (!SettingsFilePath.EndsWith(".json"))
 				throw new ArgumentException($"{nameof(SettingsFilePath)} has to be a '.json' file");

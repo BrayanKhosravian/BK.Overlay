@@ -12,4 +12,9 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BK.Common\BK.Common.csproj" />
+  </ItemGroup>
+
 </Project>
+  
