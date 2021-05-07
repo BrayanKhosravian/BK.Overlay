@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BK.CheatSheetOverlay.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace BK.CheatSheetOverlay
 		public MainWindow()
 		{
 			InitializeComponent();
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			var configurationWindow = new CheatSheatConfigurationWindow();
+			configurationWindow.Show();
 		}
 	}
 }

@@ -3,9 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BK.CheatSheetOverlay.Views"
+        xmlns:local="clr-namespace:BK.CheatSheetOverlay.Views" xmlns:xceed="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        xmlns:colorpicker="clr-namespace:ColorPicker;assembly=ColorPicker"
+       
         Title="CheatSheatConfigurationWindow" Height="450" Width="800">
     <StackPanel>
         <CheckBox Content="Is Active" Command="{Binding IsActiveCommand}"/>
@@ -29,9 +29,14 @@
             <Label Content="Opacity:"/>
             <Slider Grid.Column="1" Minimum="0" Maximum="100" Value="50" VerticalAlignment="Center"/>
         </Grid>
-        <WrapPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
             <Label Content="Backgroundcolor: "/>
-            <colorpicker:StandardColorPicker />
-        </WrapPanel>
+            <xceed:ColorPicker Grid.Column="1"/>
+        </Grid>
     </StackPanel>
 </Window>

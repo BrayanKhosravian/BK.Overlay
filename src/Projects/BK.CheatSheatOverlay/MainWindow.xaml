@@ -6,5 +6,5 @@
         xmlns:local="clr-namespace:BK.CheatSheetOverlay"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400">
-   
+    <Button Content="Configuration" Click="Button_Click"/>
 </Window>
