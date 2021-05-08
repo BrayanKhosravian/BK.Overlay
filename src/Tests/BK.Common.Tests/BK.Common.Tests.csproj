@@ -16,5 +16,9 @@
     <ProjectReference Include="..\..\BK.Common\BK.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestOutput\" />
+  </ItemGroup>
+
 </Project>
   

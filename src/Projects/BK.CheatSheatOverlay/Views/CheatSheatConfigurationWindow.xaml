@@ -8,7 +8,16 @@
        
         Title="CheatSheatConfigurationWindow" Height="450" Width="800">
     <StackPanel>
-        <CheckBox Content="Is Active" Command="{Binding IsActiveCommand}"/>
+        <CheckBox x:Name="isActiveCheckBox" 
+                  Content="Is active" 
+                  Command="{Binding IsActiveCommand}" 
+                  CommandParameter="{Binding ElementName=isActiveCheckBox, Path=IsChecked}"/>
+
+        <CheckBox x:Name="canClickThroughCechkBox" 
+                  Content="Can click through" 
+                  Command="{Binding CanClickThroughCommand}" 
+                  CommandParameter="{Binding ElementName=canClickThroughCechkBox, Path=IsChecked}"/>
+
         <GroupBox Header="Size" Padding="0,5,0,0">
             <StackPanel>
                 <WrapPanel Margin="0,0,0,5">
@@ -27,7 +36,7 @@
                 <ColumnDefinition Width="6*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Opacity:"/>
-            <Slider Grid.Column="1" Minimum="0" Maximum="100" Value="50" VerticalAlignment="Center"/>
+            <Slider Grid.Column="1" Minimum="0" Maximum="100" Value="{Binding Opacity}" VerticalAlignment="Center"/>
         </Grid>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -36,7 +45,7 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
             <Label Content="Backgroundcolor: "/>
-            <xceed:ColorPicker Grid.Column="1"/>
+            <xceed:ColorPicker Grid.Column="1" SelectedColor="{Binding BackgroundColor}"/>
         </Grid>
     </StackPanel>
 </Window>

@@ -7,7 +7,8 @@ using System.Text;
 
 namespace BK.Common.Tests.Settings
 {
-	
+	// todo
+	[TestFixture]
 	public class SettingsTests
 	{
 		[OneTimeSetUp]
@@ -27,6 +28,11 @@ namespace BK.Common.Tests.Settings
 		{
 		}
 
+		[Test]
+		public void MyTestMethod()
+		{
+
+		}
 		
 	}
 }
